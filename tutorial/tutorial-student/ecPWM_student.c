@@ -8,7 +8,7 @@
 */
 
 
-#include "ecPWM_student.h"
+#include "ecPWM.h"
 
 /* PWM Configuration */
 
