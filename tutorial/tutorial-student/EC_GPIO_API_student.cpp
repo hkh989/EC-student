@@ -24,22 +24,32 @@ EC_DigitalOut::EC_DigitalOut(GPIO_TypeDef *Port, int pin)
 	this->mode_t=mode;	
 }
 	
-		
+
 void EC_DigitalOut::write(int _outVal)
 {
 	// Exercise
+<<<<<<< Updated upstream
 	GPIO_write(Port_t, pin_t, _outVal);
+=======
+	GPIO_write(Port_t,pin_t,_outVal);
+>>>>>>> Stashed changes
 }
 
 void EC_DigitalOut::pupdr(int _pupd){
 	// Exercise
+<<<<<<< Updated upstream
 	//GPIO_pudr(Port_t, pin_t, _pupd);
+=======
+	GPIO_pudr(Port_t,pin_t,_pupd);
+>>>>>>> Stashed changes
 }
 
 void EC_DigitalOut::otype(int _type){
 	// Exercise
+	GPIO_otype(Port_t,pin_t,_type);
 }
 
 void EC_DigitalOut::ospeed(int _speed){
 	// Exercise
+	GPIO_ospeed(Port_t,pin_t,_speed);
 }
